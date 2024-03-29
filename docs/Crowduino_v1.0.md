@@ -17,7 +17,7 @@ Crowduino differs from all preceding boards in that it contains Shield and XBee 
 
 **Model [MCA01328A](http://www.elecrow.com/arduino-compatiable-c-109/micro-controller-c-109_117/crowduino-with-atmega-328-p-338.html)**
 
-<img src="/assets/images/600px-Crowduino.jpg" style="zoom:80%;" />
+![Crowduino](./assets/images/600px-Crowduino.jpg)
 
 
 
