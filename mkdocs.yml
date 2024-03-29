@@ -1,11 +1,11 @@
 site_name: Elecrow Wiki
-site_url: https://squidfunk.github.io/mkdocs-material/  #站点链接 ————必填项
+# site_url: https://squidfunk.github.io/mkdocs-material/  #站点链接 ————必填项
 site_author: Elecrow  #项目作者
 # site_description:   #站点描述————html中媒体响应 meta标签 的描述内容
 # copyright:   #版权信息
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+# repo_name: squidfunk/mkdocs-material
+# repo_url: https://github.com/squidfunk/mkdocs-material
 nav:
   - Home: index.md  
   - test: Crowduino_v1.0.md
