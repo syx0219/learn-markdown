@@ -1,14 +1,13 @@
-site_name: Elecrow Wiki
-site_url: https://syx0219.github.io/learn-markdown/  #站点链接 ————必填项
-site_author: Elecrow-Linda  #项目作者
+site_name: Elecrow
+site_url: https://wiki.elecrow.com/  #站点链接 ————必填项
+site_author: Elecrow  #项目作者
 # site_description:   #站点描述————html中媒体响应 meta标签 的描述内容
 # copyright:   #版权信息
 # Repository
-repo_name: syx0219/learn-markdown
-repo_url: https://github.com/syx0219/learn-markdown
+repo_name: ELECROW_IT/Elecrow_wiki
+repo_url: http://192.168.2.102:3000/ELECROW_IT/Elecrow_wiki
 nav:
-  - Home: index.md  
-  - test: Crowduino_v1.0.md
+  - Main Page: index.md 
 theme:
   name: 'material'
   custom_dir: material/overrides
@@ -37,7 +36,7 @@ theme:
       - navigation.tabs
       # - navigation.tabs.sticky
       - navigation.top
-      - navigation.tracking
+      # - navigation.tracking
       - search.highlight
       - search.share
       - search.suggest
@@ -71,7 +70,6 @@ theme:
 
 # Plugins
 plugins:
-  - blog
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
@@ -91,6 +89,9 @@ extra:
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
+
+#预览控制
+use_directory_urls: false
 
 # Extensions
 markdown_extensions:
@@ -141,3 +142,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+
+# 自定义样式
+extra_css:
+  - stylesheets/extra.css
