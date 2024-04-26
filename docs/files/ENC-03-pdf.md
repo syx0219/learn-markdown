@@ -2,9 +2,6 @@
 title: File:ENC-03.pdf
 ---
 
-## File
---------
-
 No file by this name exists.
 
 ## File usage

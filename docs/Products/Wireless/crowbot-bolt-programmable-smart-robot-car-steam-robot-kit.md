@@ -86,17 +86,17 @@ Insert the 4pin ultrasonic sensor into ultrasonic module interface on the chassi
 **Play with Python**
 
 ![Crowbot连线-01.png](https://wiki.elecrow.com/images/thumb/0/08/Crowbot%E8%BF%9E%E7%BA%BF-01.png/850px-Crowbot%E8%BF%9E%E7%BA%BF-01.png){ loading=lazy }  
-Please download [Python\_Lessons\_Code.zip](https://wiki.elecrow.com/images/0/0d/Python_code.zip). The folder contains 16 Python Lessons code, firmware and tutorial.  
+Please download [Python\_Lessons\_Code.zip](../../files/Python-code-zip.md). The folder contains 16 Python Lessons code, firmware and tutorial.  
 ![Crowbot python code.png](https://wiki.elecrow.com/images/6/6b/Crowbot_python_code.png){ loading=lazy }  
 **Play with Arduino**
 
 ![Crowbot连线2-01.png](https://wiki.elecrow.com/images/thumb/5/5e/Crowbot%E8%BF%9E%E7%BA%BF2-01.png/850px-Crowbot%E8%BF%9E%E7%BA%BF2-01.png){ loading=lazy }  
-Please download [Arduino\_Lessons\_Code.zip](https://wiki.elecrow.com/images/6/65/Arduino_code.zip). The folder contains 16 Arduino Lessons code, library needed and tutorial.  
+Please download [Arduino\_Lessons\_Code.zip](../../files/Arduino-code-zip.md). The folder contains 16 Arduino Lessons code, library needed and tutorial.  
 ![Crowbot arduino code.png](https://wiki.elecrow.com/images/1/12/Crowbot_arduino_code.png){ loading=lazy }  
 **Play with Letscode**
 
 ![Crowbot-letscode.png](https://wiki.elecrow.com/images/thumb/7/7c/Crowbot-letscode.png/900px-Crowbot-letscode.png){ loading=lazy }  
-Please download [Letscode\_Lessons\_Code.zip](https://wiki.elecrow.com/images/7/77/Letscode_code.zip).  
+Please download [Letscode\_Lessons\_Code.zip](../../files/Letscode-code-zip.md).  
 ## FAQS
 ----
 
@@ -116,12 +116,12 @@ You can post your questions on our [forum](https://forum.elecrow.com/) or contac
 ## Resources
 ---------
 
-[Crowbot\_BOLT\_Beginner's\_Guide.pdf](https://www.elecrow.com/download/Crowbot/Crowbot_BOLT_Beginner%E2%80%99s_Guide.pdf)
-[Python\_Lessons\_Code.zip](https://wiki.elecrow.com/images/0/0d/Python_code.zip)
-[Arduino\_Lessons\_Code.zip](https://wiki.elecrow.com/images/6/65/Arduino_code.zip)
-[Letscode\_Lessons\_Code.zip](https://wiki.elecrow.com/images/7/77/Letscode_code.zip)
-[Factory\_Source\_Code.zip](https://wiki.elecrow.com/images/9/95/Factory_source_code.zip)
-[CrowBot-BOLT\_Schematic.pdf](https://wiki.elecrow.com/images/9/9b/CrowBot-BOLT_Schematic.pdf.pdf)
-[CrowBot-BOLT\_Eagle file\_SCH&amp;PCB](https://wiki.elecrow.com/images/a/ae/CrowBot_-V1.4-20220909.zip)
-[Joystick\_for\_Crowbot\_Eagle file\_SCH&amp;PCB](https://wiki.elecrow.com/images/a/a6/Joystick_for_Crowbot_-V1.1-20220913.zip)
-[CrowBot-BOLT\_Structural\_3D\_Model\_stp.zip](https://wiki.elecrow.com/images/f/f6/CrowBot-BOLT_Structural_3D_Model_STPfile.zip)
+[Crowbot\_BOLT\_Beginner's\_Guide.pdf](https://www.elecrow.com/download/Crowbot/Crowbot_BOLT_Beginner%E2%80%99s_Guide.pdf)  
+[Python\_Lessons\_Code.zip](../../files/Python-code-zip.md)  
+[Arduino\_Lessons\_Code.zip](../../files/Arduino-code-zip.md)  
+[Letscode\_Lessons\_Code.zip](../../files/Letscode-code-zip.md)  
+[Factory\_Source\_Code.zip](../../files/Factory-source-code-zip.md)  
+[CrowBot-BOLT\_Schematic.pdf](../../files/CrowBot-BOLT-Schematic-pdf-pdf.md)  
+[CrowBot-BOLT\_Eagle file\_SCH&amp;PCB](../../files/CrowBot-V1.4-20220909-zip.md)  
+[Joystick\_for\_Crowbot\_Eagle file\_SCH&amp;PCB](../../files/Joystick-for-Crowbot-V1.1-20220913-zip.md)  
+[CrowBot-BOLT\_Structural\_3D\_Model\_stp.zip](../../files/CrowBot-BOLT-Structural-3D-Model-STPfile-zip.md)  
