@@ -1,0 +1,100 @@
+---
+title: 2.4-2.8-3.5 inch ESP32 Display PlatformIO Tutorial
+---
+
+## Overview
+------
+
+This tutorial is for 2.4-inch/2.8-inch/3.5-inch ESP32 HMI display.
+
+## Resources
+------
+
+- [PlatformIO_24.zip](https://www.elecrow.com/download/product/ESP32_Display/2.4inch/PlatformIO_24.zip)
+- [PlatformIO_28.zip](https://www.elecrow.com/download/product/ESP32_Display/2.8inch/PlatformIO_28.zip)
+- [PlatformIO_35.zip](https://www.elecrow.com/download/product/ESP32_Display/3.5inch/PlatformIO_35.zip)
+
+## Software Preparation
+------
+
+First download Visual Studio Code on https://code.visualstudio.com/. Choose the version that is compatible with your computer system and download it   
+![Vscode-download.jpg](https://wiki.elecrow.com/images/thumb/4/45/Vscode-download.jpg/800px-Vscode-download.jpg){ loading=lazy }
+
+Open VSCode and click on Extension, search for Python and install.   
+![Platformio-terminal-python.png](https://wiki.elecrow.com/images/thumb/c/ca/Platformio-terminal-python.png/800px-Platformio-terminal-python.png){ loading=lazy }
+
+Search for PlatformIO and install it.    
+![Platformio-terminal-platformio.png](https://wiki.elecrow.com/images/thumb/7/71/Platformio-terminal-platformio.png/800px-Platformio-terminal-platformio.png){ loading=lazy }
+
+## Create new projects
+------
+
+Click on the PlatformIO icon, click the quik access "Open", then click "+New Project"    
+![Platformio-terminal-new-project.png](https://wiki.elecrow.com/images/thumb/d/d5/Platformio-terminal-new-project.png/800px-Platformio-terminal-new-project.png){ loading=lazy }
+
+Add the project name. The board select "Denky(WROOM32)", framework select Arduino   
+![Tutorial-PlatformIO-DIS03024H.png](https://wiki.elecrow.com/images/thumb/9/9b/Tutorial-PlatformIO-DIS03024H.png/600px-Tutorial-PlatformIO-DIS03024H.png){ loading=lazy }
+
+The main part of the program will be written in main.cpp    
+![Platformio-terminal-main.png](https://wiki.elecrow.com/images/thumb/f/f2/Platformio-terminal-main.png/800px-Platformio-terminal-main.png){ loading=lazy }
+
+Download the lvgl and TFT_eSPI library   
+![Platformio-terminal-library.png](https://wiki.elecrow.com/images/thumb/5/56/Platformio-terminal-library.png/800px-Platformio-terminal-library.png){ loading=lazy }
+
+![Platformio-terminal-library-lvgl.png](https://wiki.elecrow.com/images/thumb/2/2d/Platformio-terminal-library-lvgl.png/800px-Platformio-terminal-library-lvgl.png){ loading=lazy }
+
+![Platformio-terminal-library-lvgl-1.png](https://wiki.elecrow.com/images/thumb/a/aa/Platformio-terminal-library-lvgl-1.png/800px-Platformio-terminal-library-lvgl-1.png){ loading=lazy }
+
+![Platformio-terminal-library-lvgl-2.png](https://wiki.elecrow.com/images/thumb/a/a3/Platformio-terminal-library-lvgl-2.png/800px-Platformio-terminal-library-lvgl-2.png){ loading=lazy }
+
+![Tutorial-PlatformIO-DIS03024H-TFT.png](https://wiki.elecrow.com/images/thumb/f/f5/Tutorial-PlatformIO-DIS03024H-TFT.png/800px-Tutorial-PlatformIO-DIS03024H-TFT.png){ loading=lazy }
+
+![Tutorial-PlatformIO-DIS03024H-TFT1.png](https://wiki.elecrow.com/images/thumb/a/a8/Tutorial-PlatformIO-DIS03024H-TFT1.png/800px-Tutorial-PlatformIO-DIS03024H-TFT1.png){ loading=lazy }
+
+![Tutorial-PlatformIO-DIS03024H-TFT2.png](https://wiki.elecrow.com/images/thumb/2/2f/Tutorial-PlatformIO-DIS03024H-TFT2.png/800px-Tutorial-PlatformIO-DIS03024H-TFT2.png){ loading=lazy }
+
+![Tutorial-PlatformIO-DIS03024H-TFT3.png](https://wiki.elecrow.com/images/thumb/6/6e/Tutorial-PlatformIO-DIS03024H-TFT3.png/800px-Tutorial-PlatformIO-DIS03024H-TFT3.png){ loading=lazy }
+
+We can see that the library has been added successfully!   
+![Tutorial-PlatformIO-DIS03024H-LIBRARY-ADDED.png](https://wiki.elecrow.com/images/thumb/0/08/Tutorial-PlatformIO-DIS03024H-LIBRARY-ADDED.png/400px-Tutorial-PlatformIO-DIS03024H-LIBRARY-ADDED.png){ loading=lazy }
+
+## Configure the libraries
+------
+
+### **TFT_eSPI**
+
+Delete the original User_Setup.h in the TFT_eSPI folder, and copy the User_Setup.h provided to the folder.   
+![Tutorial-PlatformIO-DIS03024H-usersetup.png](https://wiki.elecrow.com/images/0/06/Tutorial-PlatformIO-DIS03024H-usersetup.png){ loading=lazy }
+
+### **LVGL**
+
+Right-click the lvgl and open in files explorer    
+![Tutorial-PlatformIO-DIS03024H-open-lvgl.png](https://wiki.elecrow.com/images/1/1b/Tutorial-PlatformIO-DIS03024H-open-lvgl.png){ loading=lazy }
+
+Move the demos and examples folder to src folder    
+![Tutorial-PlatformIO-DIS03024H-movefolders.png](https://wiki.elecrow.com/images/b/b6/Tutorial-PlatformIO-DIS03024H-movefolders.png){ loading=lazy }
+
+![Tutorial-PlatformIO-DIS03024H-movefolders1.png](https://wiki.elecrow.com/images/thumb/7/7a/Tutorial-PlatformIO-DIS03024H-movefolders1.png/800px-Tutorial-PlatformIO-DIS03024H-movefolders1.png){ loading=lazy }
+
+Place the lv_conf.h file under the donky32 directory    
+![Tutorial-PlatformIO-DIS03024H-lvconf.png](https://wiki.elecrow.com/images/0/0c/Tutorial-PlatformIO-DIS03024H-lvconf.png){ loading=lazy }
+
+### **UI**
+
+Put the UI files to the right folder. (The UI files are [generated from the SquareLine Studio](https://www.youtube.com/watch?v=TcWvxw61U_w&t=168s))   
+![24-platformio-uifiles.jpg](https://wiki.elecrow.com/images/0/0a/24-platformio-uifiles.jpg){ loading=lazy }
+
+The .c files should be in the /src folder, and the .h files should be /include folder.
+
+## Compile and upload the code
+--------
+
+After the configuration is complete, write the code in main.cpp.   
+Then we can compile the program.
+
+![Tutorial-PlatformIO-DIS03024H-compile.png](https://wiki.elecrow.com/images/thumb/3/3c/Tutorial-PlatformIO-DIS03024H-compile.png/800px-Tutorial-PlatformIO-DIS03024H-compile.png){ loading=lazy }
+
+![Tutorial-PlatformIO-DIS03024H-createimage.png](https://wiki.elecrow.com/images/thumb/8/81/Tutorial-PlatformIO-DIS03024H-createimage.png/800px-Tutorial-PlatformIO-DIS03024H-createimage.png){ loading=lazy }
+
+Upload the code and press reset button, the program will run on the board!    
+![Tutorial-PlatformIO-DIS03024H-upload.png](https://wiki.elecrow.com/images/thumb/f/f0/Tutorial-PlatformIO-DIS03024H-upload.png/800px-Tutorial-PlatformIO-DIS03024H-upload.png){ loading=lazy }

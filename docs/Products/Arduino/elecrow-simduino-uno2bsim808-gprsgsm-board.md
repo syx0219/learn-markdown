@@ -1,35 +1,8 @@
-Contents
---------
+---
+title: Elecrow SIMduino UNO+SIM808 GPRS/GSM Board
+---
 
-
-
-- [1 Description](#Description)
-- [2 Summary](#Summary)
-- [3 Features](#Features)
-- [4 Interface Function](#Interface_Function)
-    - [4.1 Connectors](#Connectors)
-    - [4.2 Antenna ports](#Antenna_ports)
-    - [4.3 SIM Connector (on Back)](#SIM_Connector_.28on_Back.29)
-    - [4.4 LEDs](#LEDs)
-- [5 The Usage of UNO](#The_Usage_of_UNO)
-- [6 The Usage of SIM808](#The_Usage_of_SIM808)
-    - [6.1 Attaching Antenna](#Attaching_Antenna)
-    - [6.2 SIM Card](#SIM_Card)
-    - [6.3 Connect the USB and DC power](#Connect_the_USB_and_DC_power)
-    - [6.4 Power the SIM808](#Power_the_SIM808)
-- [7 Arduino Test](#Arduino_Test)
-    - [7.1 Making a call: using Software UART](#Making_a_call:_using_Software_UART)
-    - [7.2 Sending SMS: using Software UART](#Sending_SMS:_using_Software_UART)
-    - [7.3 Using Sms to Control an LED Status](#Using_Sms_to_Control_an_LED_Status)
-- [8 The usage of GPS Function](#The_usage_of_GPS_Function)
-    - [8.1 Print the GPS(GNSS) data with serial port](#Print_the_GPS.28GNSS.29_data_with_serial_port)
-    - [8.2 AT Commands Examples](#AT_Commands_Examples)
-- [9 Resources](#Resources)
-- [10 Support](#Support)
-
-
-
-Description
+## Description
 -----------
 
 The Elecrow Simduino combines Arduino uno and sim808 module. It will save more cost and space for your project and easier to build other modules. It not only by DC power supply, we have designed a battery interface for it, you can also use a 3.7V lithium battery to power it. Whether you want to get a Arduino or a SIM808 module, even start a SIM808 related application that base on Arduino. It will make your satisfaction. Come on and add it to your shopping cart.
@@ -38,11 +11,12 @@ Same as the Arduino UNO, the SIMduino also has 14 digital input/output pins (of 
 
 **Model: [ACM12425E](http://www.elecrow.com/elecrow-simduino-unosim808-gprsgsm-board-p-1607.html)**
 
-[![Simduinodd fem.JPG](/images/thumb/f/fa/Simduinodd_fem.JPG/600px-Simduinodd_fem.JPG)](#file)
+![Simduinodd fem.JPG](https://wiki.elecrow.com/images/thumb/f/fa/Simduinodd_fem.JPG/600px-Simduinodd_fem.JPG){ loading=lazy }
 
-[![Alt text](/images/2/2f/Get_one_now.png)](https://www.elecrow.com/elecrow-simduino-unosim808-gprsgsm-board-p-1607.html?wiki "Title text")
+[![Alt text](../../assets/images/Get_one_now.png){loading=lazy}](https://www.elecrow.com/elecrow-simduino-unosim808-gprsgsm-board-p-1607.html?wiki "Title text")
 
-Summary
+
+## Summary
 -------
 
 | **Microcontroller** | **ATmega328** |
@@ -59,7 +33,7 @@ Summary
 | EEPROM | 1 KB (ATmega328) |
 | Clock Speed | 16 MHz |
 
-Features
+## Features
 --------
 
 - UNO+SIM808,TWO in one board;
@@ -81,71 +55,69 @@ Features
 - Standard 4-pole TRRS headphone jack. Use any 'Android' or 'iPhone'-compatible headset with mic
 - Dimensions(mm):70.0(L)x55.0(W)x14.0(H)
 
-Interface Function
+## Interface Function
 ------------------
 
-[600px](/index.php?title=Special:Upload&wpDestFile=SIMduino_intefgfrface1.jpg "File:SIMduino intefgfrface1.jpg")
+### **Connectors**
 
-### Connectors
-
-JST 2-PIN: This is the battery input connector.(3.3-5V)
-MiniUSB connector:Arduino IDE Programming port.
+JST 2-PIN: This is the battery input connector.(3.3-5V)    
+MiniUSB connector:Arduino IDE Programming port.    
 Headset jack:This is a 'standard' TRRS 3.5mm phone headset jack with stereo earphone and mono microphone.
 
-### Antenna ports
+### **Antenna ports**
 
 There is two antenna inferface in the board,"GSM" where you can plug your GSM antennea and "GPS" connect the GPS antenna.
 
-### SIM Connector (on Back)
+### **SIM Connector (on Back)**
 
 A 2G Micro SIM card is required to use the module. Nearly any cell phone shop can sell you a SIM card. It must be a 2G GSM card. AT&amp;T in the US does not sell these anymore!
 
-### LEDs
+### **LEDs**
 
-PWR:RED
-NET:Orange!You can use this for checking the current state without sending an AT command:
-\--64ms on, 800ms off - the module is running but hasn't made connection to the cellular network yet
-\--64ms on, 3 seconds off - the module has made contact with the cellular network and can send/receive voice and SMS
-\--64ms on, 300ms off - the GPRS data connection you requested is active
-\--By watching the blinks you can get a visual feedback on whats going on
+PWR:RED   
+NET:Orange!You can use this for checking the current state without sending an AT command:   
+\--64ms on, 800ms off - the module is running but hasn't made connection to the cellular network yet   
+\--64ms on, 3 seconds off - the module has made contact with the cellular network and can send/receive voice and SMS    
+\--64ms on, 300ms off - the GPRS data connection you requested is active   
+\--By watching the blinks you can get a visual feedback on whats going on    
 STA：Blue!Lit when the SIM808 module is booted and running.
 
-The Usage of UNO
+## The Usage of UNO
 ----------------
 
 The usage of SIMduino is same as the Arduino UNO:
 
-The Usage of SIM808
+## The Usage of SIM808
 -------------------
 
-### Attaching Antenna
+### **Attaching Antenna**
 
-GPS antenna and GSM antenna is required!
-[![SIM808 Antenna.jpg](/images/thumb/9/92/SIM808_Antenna.jpg/500px-SIM808_Antenna.jpg)](#file)
+GPS antenna and GSM antenna is required!   
+![SIM808 Antenna.jpg](https://wiki.elecrow.com/images/thumb/9/92/SIM808_Antenna.jpg/500px-SIM808_Antenna.jpg){ loading=lazy }
 
-### SIM Card
+### **SIM Card**
 
-You must insert a SIM card to do anything but the most basic tests. GPS does work without a SIM but of course you cannot send or receive texts, calls, etc!
-The SIM card holder is on the back. It holds a very-standard "Micro SIM",Mini SIMs will not work! Make sure you get a "Micro SIM".
-[![SIM808 SIMddd card.jpg](/images/0/0b/SIM808_SIMddd_card.jpg)](#file)
+You must insert a SIM card to do anything but the most basic tests. GPS does work without a SIM but of course you cannot send or receive texts, calls, etc!   
+The SIM card holder is on the back. It holds a very-standard "Micro SIM",Mini SIMs will not work! Make sure you get a "Micro SIM".   
+![SIM808 SIMddd card.jpg](https://wiki.elecrow.com/images/0/0b/SIM808_SIMddd_card.jpg){ loading=lazy }
 
-### Connect the USB and DC power
+### **Connect the USB and DC power**
 
-Due to the SIM808 power up need more than 2.5A current, you need to connect a DC power to it.
-[![Usb connect.jpg](/images/thumb/5/5d/Usb_connect.jpg/500px-Usb_connect.jpg)](#file)
+Due to the SIM808 power up need more than 2.5A current, you need to connect a DC power to it.   
+![Usb connect.jpg](https://wiki.elecrow.com/images/thumb/5/5d/Usb_connect.jpg/500px-Usb_connect.jpg){ loading=lazy }
 
-### Power the SIM808
+### **Power the SIM808**
 
-Press the KEY more than 3S, the STA LED will light up and the NET LED will blink.
-[![Power sim808.jpg](/images/thumb/8/8f/Power_sim808.jpg/500px-Power_sim808.jpg)](#file)
+Press the KEY more than 3S, the STA LED will light up and the NET LED will blink.    
+![Power sim808.jpg](https://wiki.elecrow.com/images/thumb/8/8f/Power_sim808.jpg/500px-Power_sim808.jpg){ loading=lazy }
 
-Arduino Test
+## Arduino Test
 ------------
 
-#### Making a call: using Software UART
+#### **Making a call: using Software UART**
 
-1.Copy the demo code as bellow and paste it in the IDE.
-[![SIM808 Picture12.jpg](/images/3/3a/SIM808_Picture12.jpg)](#file)
+1.Copy the demo code as bellow and paste it in the IDE.   
+![SIM808 Picture12.jpg](https://wiki.elecrow.com/images/3/3a/SIM808_Picture12.jpg){ loading=lazy }
 
 2.Upload to your Arduino wired up to the moduleOnce uploaded to your Arduino, open up the serial console at 115200 baud speed to begin the tester sketch.
 
@@ -180,7 +152,7 @@ void loop()
 }
 ```
 
-### Sending SMS: using Software UART
+### **Sending SMS: using Software UART**
 
 ```
 
@@ -220,15 +192,15 @@ void loop()
 }
 ```
 
-### Using Sms to Control an LED Status
+### **Using Sms to Control an LED Status**
 
 This example is controbuted by MChobby, for more information please visit: [https://wiki.mchobby.be/index.php?title=SmsCommand](https://wiki.mchobby.be/index.php?title=SmsCommand)
 
 Send a SMS message "on" or "off" from your cellphone to the GPRS Shield to control the Digital Pin 13(LED) Status.
 
-- The default Buffer of Rx in SoftwareSerial.h is 32/64, you may experience some data lose while the returns of SIM808 are many(Receiving SMS/TCPIP), you can try to change the Buffer of Rx in SoftwareSerial.h into
+- <font color="red">The default Buffer of Rx in SoftwareSerial.h is 32/64, you may experience some data lose while the returns of SIM808 are many(Receiving SMS/TCPIP), you can try to change the Buffer of Rx in SoftwareSerial.h into
 
-**\#define \_SS\_MAX\_RX\_BUFF** *128* // RX buffer size
+**\#define \_SS\_MAX\_RX\_BUFF** *128* // RX buffer size</font>
 
 ```
 
@@ -414,14 +386,12 @@ void ProcessGprsMsg() {
 }
 ```
 
-The usage of GPS Function
+## The usage of GPS Function
 -------------------------
 
-### Print the GPS(GNSS) data with serial port
+### **Print the GPS(GNSS) data with serial port**
 
-### AT Commands Examples
-
-[800px](/index.php?title=Special:Upload&wpDestFile=SIM808_GPRS_GSM_GPS_Shield_v1.1_GNSS_AT.jpg "File:SIM808 GPRS GSM GPS Shield v1.1 GNSS AT.jpg")
+### **AT Commands Examples**
 
 Demo code of get the GPS information:
 
@@ -482,14 +452,14 @@ String sendData(String command, const int timeout, boolean debug)
 
 The result of get the GPS information.
 
-[![SIM808 GPRS GSM GPS Shield v1.1 GNSS code.jpg](/images/thumb/6/63/SIM808_GPRS_GSM_GPS_Shield_v1.1_GNSS_code.jpg/500px-SIM808_GPRS_GSM_GPS_Shield_v1.1_GNSS_code.jpg)](#file)
+![SIM808 GPRS GSM GPS Shield v1.1 GNSS code.jpg](https://wiki.elecrow.com/images/thumb/6/63/SIM808_GPRS_GSM_GPS_Shield_v1.1_GNSS_code.jpg/500px-SIM808_GPRS_GSM_GPS_Shield_v1.1_GNSS_code.jpg){ loading=lazy }
 
-Resources
+## Resources
 ---------
 
-[https://www.elecrow.com/wiki/index.php?title=File:Elecrow\_Simduino\_v2.2\_eagle\_file.zip](#file)
+[Elecrow Simduino v2.2 eagle file.zip](https://wiki.elecrow.com/images/2/2d/Elecrow_Simduino_v2.2_eagle_file.zip)
 
-Support
+## Support
 -------
 
 If you have any problem about how to use it, you can connect to us at [the bottom-right of bazzer](http://www.elecrow.com/) or contact to **techsupport@elecrow.com** to get technology support.
