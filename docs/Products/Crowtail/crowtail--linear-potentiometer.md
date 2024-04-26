@@ -23,16 +23,61 @@ The Crowtail- Linear Potentiometer module uses a linear variable resistor with a
 
 Dimensions(mm):60.0(L)x20.0(W)x18.0(H)
 
-| Item | Min | Typical | Max | Unit |
-|:-:|:-:|:-:|:-:|:-:|
-| Voltage | 3.5 | 5.0 | 30 | V |
-| Current | - | - | 30 | mA |
-| Dimension | 20 x 60 | mm |
-| Net Weight | 8.3 | g |
-| Rotational life | &gt;15000 | cycles |
-| Total resistance | 10 | KΩ |
-| Stroke length | 30 | mm |
-| Total resistance tolerance | +/- 20% | / |
+<table border="1" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <th scope="col" align="center"> Item</th>
+      <th scope="col" align="center"> Min</th>
+      <th scope="col" align="center"> Typical</th>
+      <th scope="col" align="center"> Max</th>
+      <th scope="col" align="center"> Unit</th>
+    </tr>
+    <tr>
+      <th scope="row">Voltage</th>
+      <td align="center">3.5</td>
+      <td align="center">5.0</td>
+      <td align="center">30</td>
+      <td align="center">V</td>
+    </tr>
+    <tr>
+      <th scope="row">Current</th>
+      <td align="center">-</td>
+      <td align="center">-</td>
+      <td align="center">30</td>
+      <td align="center">mA</td>
+    </tr>
+    <tr>
+      <th scope="row"> Dimension</th>
+      <td align="center" colspan="3">20 x 60</td>
+      <td align="center">mm</td>
+    </tr>
+    <tr>
+      <th scope="row"> Net Weight</th>
+      <td align="center" colspan="3">8.3</td>
+      <td align="center">g</td>
+    </tr>
+    <tr>
+      <th scope="row"> Rotational life</th>
+      <td align="center" colspan="3"> &gt;15000</td>
+      <td align="center">cycles</td>
+    </tr>
+    <tr>
+      <th scope="row"> Total resistance</th>
+      <td align="center" colspan="3"> 10</td>
+      <td align="center">KΩ</td>
+    </tr>
+    <tr>
+      <th scope="row"> Stroke length</th>
+      <td align="center" colspan="3"> 30</td>
+      <td align="center">mm</td>
+    </tr>
+    <tr>
+      <th scope="row"> Total resistance tolerance</th>
+      <td align="center" colspan="3"> +/- 20%</td>
+      <td align="center">/</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Usage
 -----
