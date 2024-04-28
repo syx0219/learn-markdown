@@ -1,5 +1,7 @@
 ---
 title: LVGL ESP32 Display Tutorial-A Step-by-Step Guide to LVGL GUI Development
+hide:
+  - navigation
 ---
 
 LVGL, or Light and Versatile Graphics Library, is a powerful open-source graphics library that can be used to develop advanced graphical user interfaces (GUIs) for a wide range of embedded systems. ESP32 is a powerful microcontroller widely used in IoT and embedded systems projects. By combining LVGL with ESP32, you can develop sophisticated and responsive GUI designs that enhance the user experience and add value to your projects, such as support for animation, themes, fonts, and touch input.    

@@ -150,5 +150,5 @@ In the first lesson, we learned the basic concepts and applications of the Human
 
 
 
-## **[Back to Main Content](../../Tutorials/lvgl-esp32-display-tutorial-a-step-by-step-guide-to-lvgl-gui-development.md)**
+## **[Back to Main Content](../../Tutorials/index.md)**
 ------

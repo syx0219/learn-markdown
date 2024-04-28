@@ -8,6 +8,9 @@ repo_name: ELECROW_IT/Elecrow_wiki
 repo_url: http://192.168.2.102:3000/ELECROW_IT/Elecrow_wiki
 nav:
   - Main Page: index.md 
+  - Products : Products/index.md
+  - Tutorials : Tutorials/index.md
+  
 theme:
   name: 'material'
   custom_dir: material/overrides
@@ -66,6 +69,8 @@ theme:
   favicon: assets/favicon.ico
   icon:
     logo: logo
+  # hide:
+  #   - navigation
 
 # Plugins
 plugins:

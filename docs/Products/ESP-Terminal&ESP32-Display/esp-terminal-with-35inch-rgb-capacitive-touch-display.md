@@ -93,7 +93,7 @@ In addition, our other screen with SPI interface, while ensuring the basic visua
 </table>
 
 
-## [LVGL ESP32 Display Tutorial-A Step-by-Step Guide to LVGL GUI Development](../../Tutorials/lvgl-esp32-display-tutorial-a-step-by-step-guide-to-lvgl-gui-development.md#lesson01-introducing-the-esp32-display-series-and-environment-configuration)
+## [LVGL ESP32 Display Tutorial-A Step-by-Step Guide to LVGL GUI Development](../../Tutorials/index.md#lesson01-introducing-the-esp32-display-series-and-environment-configuration)
 --------------------------------------------------------------
 
 In this 16-lesson, step-by-step tutorial, we will guide you through the process of setting up LVGL on your ESP32 development board, creating a basic GUI application, and adding advanced features such as animation, themes, and touch input. We will also cover best practices for optimizing your LVGL GUIs for performance and memory usage.

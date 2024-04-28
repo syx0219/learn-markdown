@@ -80,7 +80,7 @@ This handheld terminal is based on the ESP32 controller, equipped with a powerfu
     </tbody>
 </table>
 
-## [LVGL ESP32 Display Tutorial-A Step-by-Step Guide to LVGL GUI Development](../../Tutorials/lvgl-esp32-display-tutorial-a-step-by-step-guide-to-lvgl-gui-development.md#lesson01-introducing-the-esp32-display-series-and-environment-configuration)
+## [LVGL ESP32 Display Tutorial-A Step-by-Step Guide to LVGL GUI Development](../../Tutorials/index.md#lesson01-introducing-the-esp32-display-series-and-environment-configuration)
 -------------------------------
 
 - [Lesson01 Introducing the ESP32 Display series and environment configuration](../Lesson/lesson01-introducing-the-esp32-display-series-and-environment-configuration.md)

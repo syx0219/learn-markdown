@@ -88,7 +88,7 @@ The ESP32 3.5-inch display is suitable for a wide range of scenes such as automo
     </tbody>
 </table>
 
-## [LVGL ESP32 Display Tutorial-A Step-by-Step Guide to LVGL GUI Development](../../Tutorials/lvgl-esp32-display-tutorial-a-step-by-step-guide-to-lvgl-gui-development.md#lesson01-introducing-the-esp32-display-series-and-environment-configuration)
+## [LVGL ESP32 Display Tutorial-A Step-by-Step Guide to LVGL GUI Development](../../Tutorials/index.md#lesson01-introducing-the-esp32-display-series-and-environment-configuration)
 -----------------------------
 
 ## [Play with Arduino (the factory demo code)](./ESP32_Display_3.5-inch_HMI_Arduino_Tutorial.md)

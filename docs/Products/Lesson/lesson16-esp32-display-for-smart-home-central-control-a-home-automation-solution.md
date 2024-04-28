@@ -80,7 +80,7 @@ Overall, the smart home UI developed by Squareline is a smart home control panel
 - [Lesson15 Smart Agriculture Monitoring: IoT-Based Real-Time ESP32 Display Project](./lesson15-smart-agriculture-monitoring-lot-based-real-time-esp32-display-project.md)
 - Lesson16 ESP32 Display for Smart Home Central Control: A Home Automation Solution
 
-## **[Back to Main Content](../../Tutorials/lvgl-esp32-display-tutorial-a-step-by-step-guide-to-lvgl-gui-development.md)** 
+## **[Back to Main Content](../../Tutorials/index.md)** 
 
 ## Resources
 ----

@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Main Page**
 ## **We Are Elecrow**
 -----------
@@ -516,4 +521,4 @@ No matter whether you're a curious student, a qualified engineer, or a hobbyist 
 ## **Tutorials**
 -----------
 
-[LVGL ESP32 Display Tutorial-A Step-by-Step Guide to LVGL GUI Development](./Tutorials/lvgl-esp32-display-tutorial-a-step-by-step-guide-to-lvgl-gui-development.md)
+[LVGL ESP32 Display Tutorial-A Step-by-Step Guide to LVGL GUI Development](./Tutorials/index.md)
