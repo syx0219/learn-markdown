@@ -15,7 +15,6 @@ theme:
   logo: assets/images/ELECROW_LOGO.png
   favicon: assets/favicon.ico
   features:
-      - announce.dismiss
       - content.action.edit
       - content.action.view
       - content.code.annotate
