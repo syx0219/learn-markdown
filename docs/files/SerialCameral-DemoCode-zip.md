@@ -25,4 +25,4 @@ Click on a date/time to view the file as it appeared at that time.
 
 The following page uses this file:
 
-- [Serial JPG Camera](../Products/Sensors/serial-jpg-camera.md)
+- [Serial JPG Camera](../serial-jpg-camera.md)

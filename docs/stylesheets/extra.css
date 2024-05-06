@@ -1,6 +1,6 @@
 .md-tabs{
-    background-color: #fff;
-    color: #00A0F0;
+    background-color: #fff !important;
+    color: #00A0F0 !important;
 }
 .md-typeset mark{
     background-color:blue;

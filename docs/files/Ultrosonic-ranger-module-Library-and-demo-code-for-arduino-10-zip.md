@@ -25,5 +25,5 @@ Click on a date/time to view the file as it appeared at that time.
 
 The following 2 pages uses this file:
 
-- [Crowtail- Ultrasonic Ranging Sensor](../Products/Crowtail/crowtail--ultrasonic-ranging-sensor.md)
-- [Ultrasonic Ranging Sensor Module](../Products/Sensors/ultrasonic-ranging-sensor-module.md)
+- [Crowtail- Ultrasonic Ranging Sensor](../crowtail--ultrasonic-ranging-sensor.md)
+- [Ultrasonic Ranging Sensor Module](../ultrasonic-ranging-sensor-module.md)

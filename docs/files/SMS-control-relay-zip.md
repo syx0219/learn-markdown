@@ -27,5 +27,5 @@ Click on a date/time to view the file as it appeared at that time.
 
 The following 2 pages uses this file:
 
-- [Leonardo GPRS/GSM IOT Board v1.0](../Products/Arduino/leonardo-gprsgsm-iot-board-v10.md)
-- [Leonardo GPRS/GSM IOT Board v1.1](../Products/Arduino/leonardo-gprsgsm-iot-board-v11.md)
+- [Leonardo GPRS/GSM IOT Board v1.0](../leonardo-gprsgsm-iot-board-v10.md)
+- [Leonardo GPRS/GSM IOT Board v1.1](../leonardo-gprsgsm-iot-board-v11.md)

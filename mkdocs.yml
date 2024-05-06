@@ -7,9 +7,452 @@ site_author: Elecrow  #项目作者
 repo_name: ELECROW_IT/Elecrow_wiki
 repo_url: http://192.168.2.102:3000/ELECROW_IT/Elecrow_wiki
 nav:
-  - Main Page: index.md 
-  - Products : Products/index.md
-  - Tutorials : Tutorials/index.md
+  - Home: index.md 
+  - Products:
+    - Arduino:
+      - Crowduino: crowduino.md
+      - Crowduino Uno-SD: crowduino-uno-sd.md
+      - Crowduino M0- SD: crowduino-m0--sd.md
+      - Crowduino Mega2560: crowduino-mega2560.md
+      - ESP8266 IOT Board(Arduino IDE or NodeMCU Lua Programming): esp8266-iot-boardarduino-ide-or-nodemcu-lua-programming.md
+      - 32u4 with A7 GPRS/GSM: 32u4-with-a7-gprsgsm.md
+      - 32u4 with A9G GPRS/GSM/GPS: 32u4-with-a9g-gprsgsmgps.md
+      - Smart Pump Shield: smart-pump-shield.md
+      - Screw Shield: screw-shield.md
+      - Crowduino Leonardo: crowduino-leonardo.md
+      - Crowduino-Nano-V3.1: crowduino-nano-v31.md
+      - Elecrow SIMduino UNO+SIM808 GPRS/GSM Board: elecrow-simduino-uno2bsim808-gprsgsm-board.md
+      - 32u4 with A6 GPRS/GSM: 32u4-with-a6-gprsgsm.md
+      - Leonardo GPRS/GSM IOT Board v1.1: leonardo-gprsgsm-iot-board-v11.md
+      - Nano 168(Arduino Compatible): nano-168arduino-compatible.md
+      - Easy Module Shield for Arduino UNO: easy-module-shield-for-arduino-uno.md
+      - IO Shield For Arduino Nano: io-shield-for-arduino-nano.md
+      - Arduino CNC Shield: arduino-cnc-shield.md
+      - Larduino Mini: larduino-mini.md
+      - Crowduino Pro Mini: crowduino-pro-mini.md
+      - Elecrow ESPduino UNO+ESP8266 Wifi Board: elecrow-espduino-uno2besp8266-wifi-board.md
+      - ESP32 WIFI/BLE Board v1.0: esp32-wifible-board-v10.md
+      - 32u4 with Lora RFM95 IOT Board-868MHz: 32u4-with-lora-rfm95-iot-board-868mhz.md
+      - RFM69 Shield: rfm69-shield.md
+      - 2.4 inch TFT Touch Shield for Arduino: 24-inch-tft-touch-shield-for-arduino.md
+      - 3.5 Inch TFT Color Screen Module 320 X 480 Support Arduino UNO Mega2560: 35-inch-tft-color-screen-module-320-x-480-support-arduino-uno-mega2560.md
+      - TEXT: text.md
+    - Shield:
+      - GPRS/GSM Shield v1.0: gprsgsm-shield-v10.md
+      - Ehternet Shield: ehternet-shield.md
+      - WiFi Shield: wifi-shield.md
+      - GPS shield: gps-shield.md
+      - 2.8'' TFT Touch Shield: 282727-tft-touch-shield.md
+      - Dual Channel H-Bridge Motor Shield: dual-channel-h-bridge-motor-shield.md
+      - Relay Shield: relay-shield.md
+      - CC3000 WiFi Shield: cc3000-wifi-shield.md
+      - USB Host Shield for Arduino: usb-host-shield-for-arduino.md
+      - Lipower Shield v1.1: lipower-shield-v11.md
+      - Mini solar Lipo Charger v1.0: mini-solar-lipo-charger-v10.md
+      - USB Hub&Powermanager for RPI Zero v1.0: usb-hub26powermanager-for-rpi-zero-v10.md
+      - Current/Voltage/Power Monitor HAT for Raspberry Pi: currentvoltagepower-monitor-hat-for-raspberry-pi.md
+      - Breakout Board for micro:bit IO Expansion Board: breakout-board-for-microbit-io-expansion-board.md
+      - Rainbow Shield: rainbow-shield.md
+      - Bluetooth Shield v1.0: bluetooth-shield-v10.md
+      - NFC Shield: nfc-shield.md
+      - Motor Shield v1.0: motor-shield-v10.md
+      - Wireless SDshield: wireless-sdshield.md
+      - Motor&Stepper Shield: motor26stepper-shield.md
+      - EM Shield: em-shield.md
+      - CAN-BUS Shield: can-bus-shield.md
+      - Joystick Shield: joystick-shield.md
+      - SIM5360E 3G Shield: sim5360e-3g-shield.md
+      - Speech Interaction board for Raspberry Pi: speech-interaction-board-for-raspberry-pi.md
+      - Power over Internet(POE) Hat for Raspberry Pi: power-over-internetpoe-hat-for-raspberry-pi.md
+      - Uninterruptible Power Supply UPS HAT For Raspberry Pi: uninterruptible-power-supply-ups-hat-for-raspberry-pi.md
+      - 4 Channel I2C Motor Shield v1.1: 4-channel-i2c-motor-shield-v11.md
+      - XBee shield: xbee-shield.md
+      - LCD Keypad Shield: lcd-keypad-shield.md
+      - Arduino Motor/Stepper/Servo Shield: arduino-motorstepperservo-shield.md
+      - 8-Channel EL Shield: 8-channel-el-shield.md
+      - SIM808 GPRS/GSM+GPS Shield: sim808-gprsgsm2bgps-shield.md
+      - RTC Data Logger Shield v1.1: rtc-data-logger-shield-v11.md
+      - Capacitive Touch Shield: capacitive-touch-shield.md
+      - VS1053 MP3 Shield: vs1053-mp3-shield.md
+      - AVR ISP Shield: avr-isp-shield.md
+      - Solderless Protoboard for raspberry pi v1.0: solderless-protoboard-for-raspberry-pi-v10.md
+      - IMX219-83 Stereo Camera: imx219-83-stereo-camera.md
+      - Binocular Stereo Vision Expansion Board for Raspberry Pi: binocular-stereo-vision-expansion-board-for-raspberry-pi.md
+      - Mbits: mbits.md
+      - Pico Shield: pico-shield.md
+    - Crowtail:
+      - Crowtail- Base Shield: crowtail--base-shield.md
+      - Crowtail- Linear Potentiometer: crowtail--linear-potentiometer.md
+      - Crowtail- Sound Sensor: crowtail--sound-sensor.md
+      - Crowtail- UV Sensor: crowtail--uv-sensor.md
+      - Crowtail- Thumb Joystick: crowtail--thumb-joystick.md
+      - Crowtail- Button: crowtail--button.md
+      - Crowtail- LED: crowtail--led.md
+      - Crowtail- Buzzer: crowtail--buzzer.md
+      - Crowtail- Touch Sensor: crowtail--touch-sensor.md
+      - Crowtail- Tilt Switch: crowtail--tilt-switch.md
+      - Crowtail- I2C LCD: crowtail--i2c-lcd.md
+      - Crowtail- Infrared Temperature Sensor: crowtail--infrared-temperature-sensor.md
+      - Crowtail- Digital Light Sensor: crowtail--digital-light-sensor.md
+      - Crowtail- GPS: crowtail--gps.md
+      - Crowtail- One Wire Waterproof Temperature Sensor: crowtail--one-wire-waterproof-temperature-sensor.md
+      - Crowtail- Dust Sensor: crowtail--dust-sensor.md
+      - Crowtail- Gas Sensor(MQ2): crowtail--gas-sensormq2.md
+      - Crowtail- ES08A Mini Servo: crowtail--es08a-mini-servo.md
+      - Crowtail- PIR Motion Sensor: crowtail--pir-motion-sensor.md
+      - Crowtail- 3-Axis Digital Compass: crowtail--3-axis-digital-compass.md
+      - Crowtail- SIM808: crowtail--sim808.md
+      - Crowtail- Microwave sensor: crowtail--microwave-sensor.md
+      - Crowtail- Dry-Reed Relay: crowtail--dry-reed-relay.md
+      - Crowtail- Pulse Sensor: crowtail--pulse-sensor.md
+      - Crowtail- Air Quality Sensor: crowtail--air-quality-sensor.md
+      - Crowtail- AM2302 Humidity&Temperature Sensor: crowtail--am2302-humidity26temperature-sensor.md
+      - Crowtail- Solid-State Relay: crowtail--solid-state-relay.md
+      - Crowtail- I2C Motor Driver: crowtail--i2c-motor-driver.md
+      - Crowtail- LED Bar: crowtail--led-bar.md
+      - Crowtail- Protoboard: crowtail--protoboard.md
+      - Crowtail- SPDT Relay: crowtail--spdt-relay.md
+      - Crowtail- Super Bright: crowtail--super-bright.md
+      - Crowtail-Rotation Angle Sensor: crowtail-rotation-angle-sensor.md
+      - Crowtail- Haptic Motor: crowtail--haptic-motor.md
+      - Crowtail- TPL5111 Reset Enable Timer: crowtail--tpl5111-reset-enable-timer.md
+      - Crowtail- MEMS Microphone: crowtail--mems-microphone.md
+      - Crowtail- LiPo Fuel Gauge: crowtail--lipo-fuel-gauge.md
+      - Crowtail- Mini PIR Motion Sensor: crowtail--mini-pir-motion-sensor.md
+      - Crowtail- BMP280 Barometer Sensor: crowtail--bmp280-barometer-sensor.md
+      - Crowtail- Strain Gauge sensor: crowtail--strain-gauge-sensor.md
+      - Crowtail- VL53L0X Laser Ranging Sensor: crowtail--vl53l0x-laser-ranging-sensor.md
+      - Crowtail-Digital-Programmable-Potentiometer: crowtail-digital-programmable-potentiometer.md
+      - Crowtail-Weight Sensor: crowtail-weight-sensor.md
+      - Crowtail- MPU6050 Accelerometer & Gyro: crowtail--mpu6050-accelerometer-26-gyro.md
+      - Crowtail- Vibration Motor: crowtail--vibration-motor.md
+      - Crowtail- Relay: crowtail--relay.md
+      - Crowtail- Moisture Sensor: crowtail--moisture-sensor.md
+      - Crowtail- Light Sensor: crowtail--light-sensor.md
+      - Crowtail- Hall Sensor: crowtail--hall-sensor.md
+      - Crowtail- Encoder: crowtail--encoder.md
+      - Crowtail- IR Reflective Sensor: crowtail--ir-reflective-sensor.md
+      - Crowtail- Temperature& Humidity Sensor: crowtail--temperature26-humidity-sensor.md
+      - Crowtail- Analog Gyro: crowtail--analog-gyro.md
+      - Crowtail- MOSFET: crowtail--mosfet.md
+      - Crowtail- Flame Sensor: crowtail--flame-sensor.md
+      - Crowtail- Rotary Angle Sensor: crowtail--rotary-angle-sensor.md
+      - Crowtail-Nano Base Board: crowtail-nano-base-board.md
+      - Crowtail- Fingerprint Sensor: crowtail--fingerprint-sensor.md
+      - Crowtail- Gas Sensor(MQ5): crowtail--gas-sensormq5.md
+      - Crowtail- Adjustable Infrared Sensor: crowtail--adjustable-infrared-sensor.md
+      - Crowtail- 3-Axis Digital Gyro: crowtail--3-axis-digital-gyro.md
+      - Crowtail- Gas Sensor(MQ9): crowtail--gas-sensormq9.md
+      - Crowtail- I2C Color Sensor: crowtail--i2c-color-sensor.md
+      - Crowtail- Collision Sensor: crowtail--collision-sensor.md
+      - Crowtail- 9G Servo: crowtail--9g-servo.md
+      - Crowtail- Magnetic Switch: crowtail--magnetic-switch.md
+      - Crowtail- Electromagnet: crowtail--electromagnet.md
+      - Crowtail- Vibration Sensor: crowtail--vibration-sensor.md
+      - Crowtail- Analog Grayscale Sensor: crowtail--analog-grayscale-sensor.md
+      - Crowtail- Switch: crowtail--switch.md
+      - Crowtail- I2C EEPROM: crowtail--i2c-eeprom.md
+      - Crowtail- Recorder: crowtail--recorder.md
+      - Crowtail- Speaker: crowtail--speaker.md
+      - Crowtail- MP3: crowtail--mp3.md
+      - Crowtail- Screw Terminal: crowtail--screw-terminal.md
+      - Crowtail- I2C Hub: crowtail--i2c-hub.md
+      - Crowtail- UV sensor(GUVA- S12SD 2.0: crowtail--uv-sensorguva--s12sd-20.md
+      - Crowtail- PH Sensor: crowtail--ph-sensor.md
+      - Crowtail- NFC: crowtail--nfc.md
+      - Crowtail- Logic Block: crowtail--logic-block.md
+      - Crowtail- 1.3 Inch OLED v1.0: crowtail--13-inch-oled-v10.md
+      - Crowtail- CurrentPower Sensor: crowtail--currentpower-sensor.md
+      - Crowtail-LED Matrix: crowtail-led-matrix.md
+      - Crowtail- DHT20: crowtail--dht20.md
+      - Crowtail- IMU 10DOF: crowtail--imu-10dof.md
+      - Crowtail- HTU21D Humidity& Temperature Sensor: crowtail--htu21d-humidity26-temperature-sensor.md
+      - Crowtail-Knock Sensor: crowtail-knock-sensor.md
+      - Crowtail-GP02: crowtail-gp02.md
+      - Crowtail- BMP180 Barometer: crowtail--bmp180-barometer.md
+      - Crowtail- Blutooth Low Energy Module: crowtail--blutooth-low-energy-module.md
+      - Crowtail- Thermistor Temperaturen Sensor: crowtail--thermistor-temperaturen-sensor.md
+      - Crowtail- RTC: crowtail--rtc.md
+      - Crowtail- Serial Wifi: crowtail--serial-wifi.md
+      - Crowtail- IR Emitter: crowtail--ir-emitter.md
+      - Crowtail- IR Receiver: crowtail--ir-receiver.md
+      - Crowtail- Current Sensor: crowtail--current-sensor.md
+      - Crowtail- RGB-LED: crowtail--rgb-led.md
+      - Crowtail- OLED: crowtail--oled.md
+      - Crowtail- Gas Sensor(MQ3): crowtail--gas-sensormq3.md
+      - Crowtail- Water Sensor: crowtail--water-sensor.md
+      - Crowtail- 3-Axis Digital Accelerometer: crowtail--3-axis-digital-accelerometer.md
+      - Crowtail- Laser Pointer: crowtail--laser-pointer.md
+      - Crowtail- Ultrasonic Ranging Sensor: crowtail--ultrasonic-ranging-sensor.md
+      - Crowtail- 80cm Infrared Proximity Sensor: crowtail--80cm-infrared-proximity-sensor.md
+      - Crowtail- 4-Digit Display: crowtail--4-digit-display.md
+      - Crowtail- Current Sensor Kit: crowtail--current-sensor-kit.md
+      - Crowtail- Extend board for Connection: crowtail--extend-board-for-connection.md
+      - Crowtail- Photo Electric Counter: crowtail--photo-electric-counter.md
+      - Crowtail- Electricity Sensor: crowtail--electricity-sensor.md
+      - Crowtail- Voltage Sensor: crowtail--voltage-sensor.md
+      - Crowtail- thermocouple Sensor: crowtail--thermocouple-sensor.md
+      - Crowtail- Gesture: crowtail--gesture.md
+      - Crowtail- G1/4" Water Flow Sensor: crowtail--g1422-water-flow-sensor.md
+      - Crowtail- G1/2" Water Flow Sensor: crowtail--g1222-water-flow-sensor.md
+      - Crowtail- G3/4" Water Flow Sensor: crowtail--g3422-water-flow-sensor.md
+      - Crowtail- G1" Water Flow Sensor: crowtail--g122-water-flow-sensor.md
+      - Crowtail- Non-contact liquid level sensor: crowtail--non-contact-liquid-level-sensor.md
+      - Crowtail- Serial Camera: crowtail--serial-camera.md
+      - Crowtail- Luminance sensor: crowtail--luminance-sensor.md
+      - Crowtail- Dual Channel Latching Module: crowtail--dual-channel-latching-module.md
+      - Crowtail- Temperature Sensor TMP102: crowtail--temperature-sensor-tmp102.md
+      - Crowtail- 315Mhz RF Receiver with Transmitter: crowtail--315mhz-rf-receiver-with-transmitter.md
+      - Crowtail- MAX30105 Particle Sensor: crowtail--max30105-particle-sensor.md
+      - Crowtail-Rotation Angle Sensor: crowtail-rotation-angle-sensor.md
+      - Crowtail-Capacitive Moisture V2.0: crowtail-capacitive-moisture-v20.md
+      - Crowtail- Stackable Shield for Raspberry Pi 2.0: crowtail--stackable-shield-for-raspberry-pi-20.md
+      - Crowtail- Motor Base Shield: crowtail--motor-base-shield.md
+      - Crowtail- A6 GPRS/GSM Module: crowtail--a6-gprsgsm-module.md
+      - Crowtail- WIFI Module: crowtail--wifi-module.md
+      - Crowtail- LoRa RA-08H: crowtail--lora-ra-08h.md
+      - Crowtail- DWM1000 UWB(Ultra Wide Band: crowtail--dwm1000-uwbultra-wide-band.md
+      - Crowtail- 4G SIM-A7670E: crowtail--4g-sim-a7670e.md
+    - Crowbits:
+      - Crowbits-LED (Red Green Yellow): crowbits-led-red-green-yellow.md
+      - Crowbits-Buzzer: crowbits-buzzer.md
+      - Crowbits-Relay: crowbits-relay.md
+      - Crowbits-Bright LED: crowbits-bright-led.md
+      - Crowbits-Vibration Motor: crowbits-vibration-motor.md
+      - Crowbits-Electromagnet: crowbits-electromagnet.md
+      - Crowbits-DC Motor: crowbits-dc-motor.md
+      - Crowbits-MOSFET: crowbits-mosfet.md
+      - Crowbits-MP3: crowbits-mp3.md
+      - Crowbits-Recorder: crowbits-recorder.md
+      - Crowbits-TPL5111 Timer: crowbits-tpl5111-timer.md
+      - Crowbits-Vibration Sensor: crowbits-vibration-sensor.md
+      - Crowbits-Magnetic Switch: crowbits-magnetic-switch.md
+      - Crowbits-Water Sensor: crowbits-water-sensor.md
+      - Crowbits-Reaction: crowbits-reaction.md
+      - Crowbits-Touch Sensor: crowbits-touch-sensor.md
+      - Crowbits-PIR Sensor: crowbits-pir-sensor.md
+      - Crowbits-Tilt Switch: crowbits-tilt-switch.md
+      - Crowbits-Button: crowbits-button.md
+      - Crowbits-Switch: crowbits-switch.md
+      - Crowbits-Flame Sensor: crowbits-flame-sensor.md
+      - Crowbits-Collision Sensor: crowbits-collision-sensor.md
+      - Crowbits-IR Reflective Sensor: crowbits-ir-reflective-sensor.md
+      - Crowbits-Photo Electric Counter: crowbits-photo-electric-counter.md
+      - Crowbits-Hall Sensor: crowbits-hall-sensor.md
+      - Crowbits-Microphone: crowbits-microphone.md
+      - Crowbits-Potentiometer: crowbits-potentiometer.md
+      - Crowbits-Light Sensor: crowbits-light-sensor.md
+      - Crowbits-Pressure Sensor: crowbits-pressure-sensor.md
+      - Crowbits-Servo Control: crowbits-servo-control.md
+      - Crowbits-Linear Potentiometer: crowbits-linear-potentiometer.md
+      - Crowbits-Terminal: crowbits-terminal.md
+      - Crowbits-315Mhz Emitter: crowbits-315mhz-emitter.md
+      - Crowbits-Expansion: crowbits-expansion.md
+      - Crowbits-Protoboard: crowbits-protoboard.md
+      - Crowbits-Power Supply(S: crowbits-power-supplys.md
+      - Crowbits-Power Supply: crowbits-power-supply.md
+      - Crowbits-Trigger Delay: crowbits-trigger-delay.md
+      - Crowbits-Logic AND: crowbits-logic-and.md
+      - Crowbits-Logic OR: crowbits-logic-or.md
+      - Crowbits-Logic NOT: crowbits-logic-not.md
+      - Crowbits-Logic Input: crowbits-logic-input.md
+      - Crowbits-315MHz Controller: crowbits-315mhz-controller.md
+      - Crowbits-IR Emitter: crowbits-ir-emitter.md
+      - Crowbits-RGB LED: crowbits-rgb-led.md
+      - Crowbits-LED Bar: crowbits-led-bar.md
+      - Crowbits-315Mhz Receiver: crowbits-315mhz-receiver.md
+      - Crowbits-IR Receiver: crowbits-ir-receiver.md
+      - Crowbits-DHT11 Sensor: crowbits-dht11-sensor.md
+      - Crowbits-Gas Sensor: crowbits-gas-sensor.md
+      - Crowbits-Encoder: crowbits-encoder.md
+      - Crowbits-Pulse Sensor: crowbits-pulse-sensor.md
+      - Crowbits-Air Quality Sensor: crowbits-air-quality-sensor.md
+      - Crowbits-Grayscale Sensor: crowbits-grayscale-sensor.md
+      - Crowbits-UV Sensor: crowbits-uv-sensor.md
+      - Crowbits-Ultrasonic Ranging Sensor: crowbits-ultrasonic-ranging-sensor.md
+      - Crowbits-Thumb Joystick: crowbits-thumb-joystick.md
+      - Crowbits-Digital Potentiometer: crowbits-digital-potentiometer.md
+      - Crowbits-Keyboard: crowbits-keyboard.md
+      - Crowbits-Voltage Sensor: crowbits-voltage-sensor.md
+      - Crowbits-CurrentPower Sensor: crowbits-currentpower-sensor.md
+      - Crowbits-IR Temperature Sensor: crowbits-ir-temperature-sensor.md
+      - Crowbits-NFC: crowbits-nfc.md
+      - Crowbits-Barometer Sensor: crowbits-barometer-sensor.md
+      - Crowbits-Digital Light Sensor: crowbits-digital-light-sensor.md
+      - Crowbits-LED Matrix: crowbits-led-matrix.md
+      - Crowbits-RGB Matrix: crowbits-rgb-matrix.md
+      - Crowbits-HTU21D Humiture Sensor: crowbits-htu21d-humiture-sensor.md
+      - Crowbits-Laser Ranging Sensor: crowbits-laser-ranging-sensor.md
+      - Crowbits-Color Sensor: crowbits-color-sensor.md
+      - Crowbits-RTC: crowbits-rtc.md
+      - Crowbits-Gesture Sensor: crowbits-gesture-sensor.md
+      - Crowbits-OLED: crowbits-oled.md
+      - Crowbits-EEPROM: crowbits-eeprom.md
+      - Crowbits-Digital Display: crowbits-digital-display.md
+      - Crowbits-WiFi: crowbits-wifi.md
+      - Crowbits-GPS: crowbits-gps.md
+      - Crowbits-2G Module: crowbits-2g-module.md
+      - Crowbits-Microbit Compatible: crowbits-microbit-compatible.md
+      - Crowbits-UNO: crowbits-uno.md
+      - Crowbits-80cm Infrared Proximity Sensor: crowbits-80cm-infrared-proximity-sensor.md
+      - Crowbits-Adjustable Infrared Sensor: crowbits-adjustable-infrared-sensor.md
+      - Crowbits-9G Servo: crowbits-9g-servo.md
+      - Crowbits-G1-4 Water Flow Sensor: crowbits-g1-4-water-flow-sensor.md
+      - Crowbits-Non-Contact Liquid Level Sensor: crowbits-non-contact-liquid-level-sensor.md
+      - Crowbits-One Wire Waterproof Temperature Sensor: crowbits-one-wire-waterproof-temperature-sensor.md
+      - Crowbits-Moisture Sensor: crowbits-moisture-sensor.md
+      - Crowbits-DHT20: crowbits-dht20.md
+    - Sensors:
+      - Temperature & Humidity Sensor: temperature-26-humidity-sensor.md
+      - PIR Motion Sensor: pir-motion-sensor.md
+      - Tiny RTC: tiny-rtc.md
+      - Adjustable Infrared Sensor Switch: adjustable-infrared-sensor-switch.md
+      - Triple Axis Magnetometer Breakout: triple-axis-magnetometer-breakout.md
+      - Ultrasonic Ranging Sensor Module: ultrasonic-ranging-sensor-module.md
+      - ACS712 Current Sensor- 5A: acs712-current-sensor--5a.md
+      - 1-Axis Analog Gyro Module-ENC03: 1-axis-analog-gyro-module-enc03.md
+      - 2-Axis Analog Gyro Module-ENC03: 2-axis-analog-gyro-module-enc03.md
+      - Strain Gauge Module: strain-gauge-module.md
+      - 4MM Inductive Metal Proximity Sensor: 4mm-inductive-metal-proximity-sensor.md
+      - Fingerprint Sensor: fingerprint-sensor.md
+      - Infrared Thermometer MLX90614 Breakout Board: infrared-thermometer-mlx90614-breakout-board.md
+      - Luminosity Sensor- TSL2561 Breakout: luminosity-sensor--tsl2561-breakout.md
+      - HC-SR505 Mini PIR Motion Sensor: hc-sr505-mini-pir-motion-sensor.md
+      - Digital light Sensor: digital-light-sensor.md
+      - Photosensor- Short Range: photosensor--short-range.md
+      - Photosensor- Long Range: photosensor--long-range.md
+      - One Wire Waterproof Temperature Sensor: one-wire-waterproof-temperature-sensor.md
+      - Accelerometer Breakout-MMA7361: accelerometer-breakout-mma7361.md
+      - MPU-6050: mpu-6050.md
+      - 3-Axis Analog Gyro Module-ENC03: 3-axis-analog-gyro-module-enc03.md
+      - Weight Sensor Scales Kit- 20KG: weight-sensor-scales-kit--20kg.md
+      - Non-invasive AC Current Sensor-100A: non-invasive-ac-current-sensor-100a.md
+      - TCS3200 Colour Sensor Module: tcs3200-colour-sensor-module.md
+      - Analog CO/Combustible Gas Sensor(MQ9: analog-cocombustible-gas-sensormq9.md
+      - UV Sensor ML8511: uv-sensor-ml8511.md
+      - Barometer Sensor: barometer-sensor.md
+      - IMU 10DOF LSM303D+L3GD20 +BMP180: imu-10dof-lsm303d2bl3gd20-2bbmp180.md
+      - Encoder Gear Motor-25MM 95RPM: encoder-gear-motor-25mm-95rpm.md
+      - Weight Sensor Amplifier-HX711: weight-sensor-amplifier-hx711.md
+      - DHT11: dht11.md
+      - Tiny Adjustable Infrared Sensor Switch: tiny-adjustable-infrared-sensor-switch.md
+      - Serial JPG Camera: serial-jpg-camera.md
+      - Dust Sensor- DSM501A: dust-sensor--dsm501a.md
+      - Dust Sensor- GP2Y1010AU0F: dust-sensor--gp2y1010au0f.md
+      - Pulse Sensor: pulse-sensor.md
+      - Sound Recorder- ISD1760: sound-recorder--isd1760.md
+      - 80cm Infrared Proximity Sensor-GP2Y0A21YK0F: 80cm-infrared-proximity-sensor-gp2y0a21yk0f.md
+      - Analog Smoke/LPG/CO Gas Sensor(MQ2: analog-smokelpgco-gas-sensormq2.md
+      - G1/4" Water Flow Sensor: crowtail--g1422-water-flow-sensor.md
+      - ENC28J60 Ethernet Module: enc28j60-ethernet-module.md
+      - UV Sensor Module-UVM30A: uv-sensor-module-uvm30a.md
+      - APM2.5 Airspeed Breakout Board MPXV7002DP: apm25-airspeed-breakout-board-mpxv7002dp.md
+      - Soil Moisture Sensor: soil-moisture-sensor.md
+      - Rectangle capacitive fingerprint scanner breathing light fingerprint AS608 sensor: rectangle-capacitive-fingerprint-scanner-breathing-light-fingerprint-as608-sensor.md
+      - 1019DRound fingerprint recognition sensor module ID809: 1019dround-fingerprint-recognition-sensor-module-id809.md
+    - Wireless:
+      - 315/433Mhz RF Link Kit: 315433mhz-rf-link-kit.md
+      - NRF24L01+PA+LNA Wireless Module: nrf24l012bpa2blna-wireless-module.md
+      - Smart car with ESP32-CAM Board: smart-car-with-esp32-cam-board.md
+      - 2.4G Wireless nRF24L01: 24g-wireless-nrf24l01.md
+      - Serial Port Bluetooth Module: serial-port-bluetooth-module.md
+      - Wireless Charger& Receiver: wireless-charger26-receiver.md
+      - 433MHz RF Transceiver CC1101 Module: 433mhz-rf-transceiver-cc1101-module.md
+      - Serial WIFI Transceiver Module ESP8266: serial-wifi-transceiver-module-esp8266.md
+      - ESP32S WIFI BLE Board: esp32s-wifi-ble-board.md
+      - CrowBot-BOLT Programmable Smart Robot Car STEAM Robot Kit: crowbot-bolt-programmable-smart-robot-car-steam-robot-kit.md
+    - Display:
+      - 0.96" OLED 128x64- Blue: 09622-oled-128x64--blue.md
+      - I2C 0.96" OLED 128x64- Blue: i2c-09622-oled-128x64--blue.md
+      - 1.44'' 128x 128 TFT LCD with SPI Interface: 1442727-128x-128-tft-lcd-with-spi-interface.md
+      - 3.5 Inch 480x320 TFT Display with Touch Screen for Raspberry Pi: 35-inch-480x320-tft-display-with-touch-screen-for-raspberry-pi.md
+      - 3.95 Inch TFT Display for Raspberry Pi: 395-inch-tft-display-for-raspberry-pi.md
+      - RC070M 7 inch 1024 X 600 Touch Screen Display with 720P Camera for Raspberry Pi/ MacBook Pro./ Windows 10: rc070m-7-inch-1024-x-600-touch-screen-display-with-720p-camera-for-raspberry-pi-macbook-pro-windows-10.md
+      - RR070 7 Inch 1024x600 HDMI/VGA/AV Display for Raspberry Pi B/B+/2B/3B: rr070-7-inch-1024x600-hdmivgaav-display-for-raspberry-pi-bb2b2b3b.md
+      - SF101C 10.1 inch 1280*800 IPS HDMI LCD Display(with case) for Raspberry Pi: sf101c-101-inch-1280800-ips-hdmi-lcd-displaywith-case-for-raspberry-pi.md
+      - SF116 11.6 Inch 1920x1080 HDMI 1080P LED Display for Raspberry Pi: sf116-116-inch-1920x1080-hdmi-1080p-led-display-for-raspberry-pi.md
+      - 2.9 inch e-Paper Module Three Color-Red Black White: 29-inch-e-paper-module-three-color-red-black-white.md
+      - 1.3 inch IPS TFT LCD Display ST7789: 13-inch-ips-tft-lcd-display-st7789.md
+      - Elecrow 10.1 inch Display IPS 1280x800 Acrylic Case Touch Screen Compatible with Raspberry Pi Jetson Nano PC: elecrow-101-inch-display-ips-1280x800-acrylic-case-touch-screen-compatible-with-raspberry-pi-jetson-nano-pc.md
+      - 5.0 Inch HDMI-Compatible Display for Raspberry Pi Compatible with Jetson Nano, Beaglebone: 50-inch-hdmi-compatible-display-for-raspberry-pi-compatible-with-jetson-nano-beaglebone.md
+      - I2C LCD2004(Yellow: i2c-lcd2004yellow.md
+      - I2C LCD1602(Blue): i2c-lcd1602blue.md
+      - WS2812 RGB LED Ring: ws2812-rgb-led-ring.md
+      - HDMI Interface 5 Inch 800x480 TFT Display: hdmi-interface-5-inch-800x480-tft-display.md
+      - 4 Inch HD 480x320 TFT Display with Touch Screen for Rapberry Pi: 4-inch-hd-480x320-tft-display-with-touch-screen-for-rapberry-pi.md
+      - RC050 5 inch HDMI 800 x 480 Capacitive Touch LCD Display for Raspberry Pi/ PC/ SONY PS4: rc050-5-inch-hdmi-800-x-480-capacitive-touch-lcd-display-for-raspberry-pi-pc-sony-ps4.md
+      - ELECROW 11.6 Inch 1080P IPS 1920x1080 Monitor with Built-in Speaker for Raspberry Pi PS4 XBOX Windows without touch function: elecrow-116-inch-1080p-ips-1920x1080-monitor-with-built-in-speaker-for-raspberry-pi-ps4-xbox-windows-without-touch-function.md
+      - ELECROW 11.6 Inch 1080P IPS 1920x1080 Monitor with Built-in Speaker for Raspberry Pi PS4 XBOX Windows with touch function: elecrow-116-inch-1080p-ips-1920x1080-monitor-with-built-in-speaker-for-raspberry-pi-ps4-xbox-windows-with-touch-function.md
+      - SF101 10.1 Inch 1920x1080 Display HDMI VGA IPS PS3 PS4 Gaming Screen: sf101-101-inch-1920x1080-display-hdmi-vga-ips-ps3-ps4-gaming-screen.md
+      - SF101R 10.1 Inch Portable HD Display for Raspberry Pi 3: sf101r-101-inch-portable-hd-display-for-raspberry-pi-3.md
+      - SF133 13.3 Inch IPS 1920X1080 Monitor Dual HDMI PortablePS3 PS4 Gaming Screen: sf133-133-inch-ips-1920x1080-monitor-dual-hdmi-portableps3-ps4-gaming-screen.md
+      - 3.5inch 480x320 MCU SPI Serial TFT LCD Module Display: 35inch-480x320-mcu-spi-serial-tft-lcd-module-display.md
+      - Meteor Screen 10.1" IPS Touch Screen (with RGB Animated light): meteor-screen-10122-ips-touch-screen-with-rgb-animated-light.md
+      - 2.8'' TFT Touch Shield: 282727-tft-touch-shield.md 
+      - 1602 LCD Display Module: 1602-lcd-display-module.md
+      - 16x16 LED Display Module: 16x16-led-display-module.md
+      - 7 Inch 1024*600 HDMI LCD Display with Touch Screen: 7-inch-1024600-hdmi-lcd-display-with-touch-screen.md
+      - 7 Inch 1024x600 TFT Display for Raspberry Pi B+ Pcduino Banana Pi: 7-inch-1024x600-tft-display-for-raspberry-pi-b2b-pcduino-banana-pi.md
+      - Elecrow RR040I 4 inch HD 800x480 Resolution IPS TFT Touch Screen Display for Raspberry Pi: elecrow-rr040i-4-inch-hd-800x480-resolution-ips-tft-touch-screen-display-for-raspberry-pi.md
+      - 7 Inch TFT Display for Raspberry Pi B+ Banana Pi BB BLACK: 7-inch-tft-display-for-raspberry-pi-b2b-banana-pi-bb-black.md
+      - SF133M 13.3 inch 1920 x 1080 HDMI Portable Display for Raspberry Pi/ PS4/ XBOX/ NS: sf133m-133-inch-1920-x-1080-hdmi-portable-display-for-raspberry-pi-ps4-xbox-ns.md
+      - RR040I 4 inch HD 800x480 Resolution IPS TFT Touch Screen Display for Raspberry Pi: rr040i-4-inch-hd-800x480-resolution-ips-tft-touch-screen-display-for-raspberry-pi.md
+      - GC1016 10.1" TFT-LCD Monitor 1280*800 Color Screen with AV1 VGA HDMI BNC USB Input Built-in Speaker: gc1016-10122-tft-lcd-monitor-1280800-color-screen-with-av1-vga-hdmi-bnc-usb-input-built-in-speaker.md
+      - 2 inch IPS Module: 2-inch-ips-module.md
+      - Elecrow 10.1 Inch Touchscreen 1280x800 IPS TFT LCD Monitor Kit: elecrow-101-inch-touchscreen-1280x800-ips-tft-lcd-monitor-kit.md 
+    - HMI Display:
+      - Wizee HMI touch display: wizee-hmi-touch-display.md 
+    - CrowVision:
+      - CrowVision 11.6'' Capacitive Touch Screen Portable HD 1366*768 IPS LCD Display: crowvision-1162727-capacitive-touch-screen-portable-hd-1366768-ips-lcd-display.md
+      - CrowVision 7.0" Touch Screen Capacitive Portable HDMI-compatible 1024*600 IPS LCD Monitor: crowvision-7022-touch-screen-capacitive-portable-hdmi-compatible-1024600-ips-lcd-monitor.md
+    - Mechanical Keyboard:
+      - Mechanical_Keyboard_ESP32-S3: mechanical-keyboard-esp32-s3.md
+    - Elecrow Services:
+      - elecrow-services.md
+      - PCB Fabricate Service Overview: pcb-fabricate-service-overview.md
+      - Q&A for PCB service: q26a-for-pcb-service.md
+      - Export gerber files from Eagle: how-to-export-gerber-files-from-eagle-file.md
+      - Export gerber files from Proteus_ARES: how-to-export-gerber-files-from-proteus-ares.md
+    - Modules for Prototyping:
+      - Breadboard Power Supply: breadboard-power-supply.md
+      - ULN2003 Stepper Motor Driver: uln2003-stepper-motor-driver.md
+      - Lipo Charger v1.0: lipo-charger-v10.md
+      - LED matrix kit: led-matrix-kit.md
+      - 1602 LCD Display Module: 1602-lcd-display-module.md
+      - RTD2556 Driver Board/Controller Board Kit: rtd2556-driver-boardcontroller-board-kit.md
+      - devDuino Sensor Node V1.3 (ATmega 328): devduino-sensor-node-v13-atmega-328.md
+      - Adjustable Integrated DC-DC Module- LM2596S: adjustable-integrated-dc-dc-module--lm2596s.md
+    - Accessories:
+      - Transparent Acrylic Switches Tester Collection: transparent-acrylic-switches-tester-collection.md
+    - Application Kits:
+      - Crazepony MINI Quadcopter: crazepony-mini-quadcopter.md
+    - Elecrow Cooperator/Partner:
+      - Cooperator Designer: cooperator-designer.md
+      - Drop Shipping: https://www.elecrow.com/cooperated-designers.html
+      - Products Wiki: products-wiki.md
+    - Raspberry Pi:
+      - CrowPi: crowpi.md
+      - CrowPi-2: crowpi-2.md
+      - CrowPi-L: crowpi-l.md
+    - Arduino Kit:
+      - GrowCube: growcube.md  
+    - ESP Terminal& ESP32 Display:
+      - ESP Terminal with 3.5inch RGB Capacitive Touch Display: esp-terminal-with-35inch-rgb-capacitive-touch-display.md
+      - ESP Terminal with 3.5inch SPI Capacitive Touch Display: esp-terminal-with-35inch-spi-capacitive-touch-display.md
+      - ESP32 Display 2.4'' Intelligent Touch Screen Wi-Fi&BLE 240*320 HMI Display: esp32-display-242727-intelligent-touch-screen-wi-fi26ble-240320-hmi-display.md
+      - ESP32 Display 2.8'' Intelligent Touch Screen Wi-Fi&BLE 240*320 HMI Display: esp32-display-282727-intelligent-touch-screen-wi-fi26ble-240320-hmi-display.md
+      - ESP32 Display 3.5'' Intelligent Touch Screen Wi-Fi&BLE 320*480 HMI Display: esp32-display-352727-intelligent-touch-screen-wi-fi26ble-320480-hmi-display.md
+      - ESP32 Display 4.3'' Intelligent Touch Screen Wi-Fi&BLE 480*272 HMI Display: esp32-display-432727-intelligent-touch-screen-wi-fi26ble-480272-hmi-display.md
+      - ESP32 Display 5.0'' Intelligent Touch Screen Wi-Fi&BLE 800*480 HMI Display: esp32-display-502727-intelligent-touch-screen-wi-fi26ble-800480-hmi-display.md
+      - ESP32 Display 7.0'' Intelligent Touch Screen Wi-Fi&BLE 800*480 HMI Display: esp32-display-702727-intelligent-touch-screen-wi-fi26ble-800480-hmi-display.md
+    - Lora:
+      - Lora RA-08H Development Board: lora-ra-08h-development-board.md
+      - Lora RA-08H Node Board: lora-ra-08h-node-board.md
+      - Lora Basic Gateway Module: lora-basic-gateway-module.md
+      - LR1302 LoRaWAN Gateway Module: lr1302-lorawan-gateway-module.md
+      - LR1302 LoRaWAN HAT for RPI_PRD: lr1302-lorawan-hat-for-rpi-prd.md
+      - LR1262 LoRaWAN Node Module: lr1262-lorawan-node-module.md 
+  - Tutorials: Tutorials.md
   
 theme:
   name: 'material'
@@ -30,14 +473,14 @@ theme:
       # - navigation.expand
       - navigation.footer
       - navigation.indexes
-      # - navigation.instant
+      - navigation.instant
       # - navigation.instant.prefetch
       # - navigation.instant.progress
       # - navigation.prune
       - navigation.sections
-      - navigation.tabs
+      # - navigation.tabs
       # - navigation.tabs.sticky
-      - navigation.top
+      # - navigation.top
       # - navigation.tracking
       - search.highlight
       - search.share
@@ -75,7 +518,7 @@ theme:
 # Plugins
 plugins:
   - search:
-      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+      separator: '\s\u200b\-_,:!=\\]()"`/]+|\.(?!\d)|&lg]t;|(?!\b)(?=A-Z]a-z])'
   - minify:
       minify_html: true
   
@@ -93,6 +536,8 @@ extra:
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
+  
+
 
 #预览控制
 use_directory_urls: false

@@ -25,4 +25,4 @@ Click on a date/time to view the file as it appeared at that time.
 
 The following page uses this file:
 
-- [315/433Mhz RF Link Kit](../Products/Wireless/315433mhz-rf-link-kit.md)
+- [315/433Mhz RF Link Kit](../315433mhz-rf-link-kit.md)

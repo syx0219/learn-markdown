@@ -29,4 +29,4 @@ The following file is a duplicate of this file (more details):
     
 The following page uses this file:
 
-- [Serial JPG Camera](../Products/Sensors/serial-jpg-camera.md)
+- [Serial JPG Camera](../serial-jpg-camera.md)
