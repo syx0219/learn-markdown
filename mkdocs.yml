@@ -1,11 +1,11 @@
-site_name: Elecrow
+site_name: Elecrow Wiki
 site_url: https://wiki.elecrow.com/  #站点链接 ————必填项
 site_author: Elecrow  #项目作者
 # site_description:   #站点描述————html中媒体响应 meta标签 的描述内容
 # copyright:   #版权信息
 # Repository
-repo_name: ELECROW_IT/Elecrow_wiki
-repo_url: http://192.168.2.102:3000/ELECROW_IT/Elecrow_wiki
+# repo_name:
+# repo_url:
 nav:
   - Home: index.md 
   - Products:
@@ -488,6 +488,7 @@ theme:
       - toc.follow
       # - toc.integrate
   palette:
+    # - primary: blue grey
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/link
@@ -530,12 +531,13 @@ hooks:
 
 # Additional configuration
 extra:
+  homepage: https://www.elecrow.com
   status:
     new: Recently added
     deprecated: Deprecated
   analytics:
     provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY
+    property: G-NP4CP31QLC
   
 
 
